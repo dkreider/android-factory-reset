@@ -15,7 +15,7 @@ public class DeviceAdministrator extends DeviceAdminReceiver {
     public void onDisabled(Context context, Intent intent) {
 
         super.onDisabled(context, intent);
-        Toast.makeText(context, "Sample Device Admin has been disabled.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Device admin has been disabled.", Toast.LENGTH_SHORT).show();
 
     }
 
@@ -23,7 +23,7 @@ public class DeviceAdministrator extends DeviceAdminReceiver {
     public void onEnabled(Context context, Intent intent) {
 
         super.onEnabled(context, intent);
-        Toast.makeText(context, "Sample Device Admin has been enabled.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Device admin has been enabled.", Toast.LENGTH_SHORT).show();
 
     }
 }
